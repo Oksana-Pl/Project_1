@@ -15,7 +15,9 @@ body {
 
 .title {
     align-items: left;
+    color: $colour-primary-dark;
 }
+
 h1 {
     color: $colour-primary-dark;
     @include heading1;
