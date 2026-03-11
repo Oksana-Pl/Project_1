@@ -181,6 +181,7 @@ li a:hover {
   width: 300px;
   background-color: #BBBBBB;
   margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .sm {
@@ -188,6 +189,7 @@ li a:hover {
   width: 300px;
   background-color: #BBBBBB;
   margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .m {
@@ -195,6 +197,7 @@ li a:hover {
   width: 300px;
   background-color: #BBBBBB;
   margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .l {
@@ -202,4 +205,5 @@ li a:hover {
   width: 300px;
   background-color: #BBBBBB;
   margin-top: 16px;
+  margin-bottom: 8px;
 }/*# sourceMappingURL=style.css.map */
