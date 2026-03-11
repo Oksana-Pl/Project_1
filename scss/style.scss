@@ -167,4 +167,29 @@ h2 {
     font-size: $body-caption-size;
 } 
   
+//spacing page
  
+.xs {
+    height: 4px;
+    width: 300px;
+    background-color: $neutral-light;
+    margin-top: $spacing-m;
+}
+.sm {
+    height: 8px;
+    width: 300px;
+    background-color: $neutral-light;
+    margin-top: $spacing-m;
+}
+.m {
+    height: 16px;
+    width: 300px;
+    background-color: $neutral-light;
+    margin-top: $spacing-m;
+}
+.l {
+    height: 32px;
+    width: 300px;
+    background-color: $neutral-light;
+    margin-top: $spacing-m;
+}

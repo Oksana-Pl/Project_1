@@ -174,4 +174,32 @@ li a:hover {
 
 .caption {
   font-size: 18px;
+}
+
+.xs {
+  height: 4px;
+  width: 300px;
+  background-color: #BBBBBB;
+  margin-top: 16px;
+}
+
+.sm {
+  height: 8px;
+  width: 300px;
+  background-color: #BBBBBB;
+  margin-top: 16px;
+}
+
+.m {
+  height: 16px;
+  width: 300px;
+  background-color: #BBBBBB;
+  margin-top: 16px;
+}
+
+.l {
+  height: 32px;
+  width: 300px;
+  background-color: #BBBBBB;
+  margin-top: 16px;
 }/*# sourceMappingURL=style.css.map */
