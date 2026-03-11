@@ -114,6 +114,11 @@ h2 {
 
 //typography page
 
+.type {
+    div {
+        margin-bottom: $spacing-m;
+    }
+}
 .hero {
     @include hero-text;
 }

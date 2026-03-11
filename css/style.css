@@ -110,6 +110,10 @@ h2 {
   color: #FFFFFF;
 }
 
+.type div {
+  margin-bottom: 16px;
+}
+
 .hero {
   font-family: "Josefin Sans", sans-serif;
   font-size: 96px;
