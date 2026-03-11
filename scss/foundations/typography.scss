@@ -1,0 +1,36 @@
+// <weight>: Use a value from 100 to 700
+
+$font-family: "Josefin Sans", sans-serif;
+$font-weight-bold: 700;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+
+//headings
+$font-size-hero: 96px;
+$font-size-h1: 80px;
+$font-size-h2: 48px;
+
+//body
+$body-text-size: 24px;
+$body-label-size: 20px;
+$body-caption-size: 18px;
+
+
+@mixin hero-text {
+    font-family: $font-family;
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+    letter-spacing: 8px;
+    text-transform: uppercase; 
+}
+
+@mixin heading1 {
+    font-size: $font-size-h1;
+    font-weight: $font-weight-light;
+}
+
+@mixin heading2 {
+    font-family: $font-family;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-regular;
+}

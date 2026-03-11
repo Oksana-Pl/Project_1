@@ -1,0 +1,15 @@
+.button-primary {
+  background-color: #F3E3D4;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #8C5A4F;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 8px;
+  padding: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.button-primary:hover {
+  background-color: #A5B3BF;
+}/*# sourceMappingURL=button.css.map */

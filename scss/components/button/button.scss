@@ -1,0 +1,18 @@
+@use "../../foundations/index.scss" as *;
+
+.button-primary {
+  
+    background-color: $colour-secondary-light;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: $colour-secondary-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    padding: $spacing-m;
+    font-family: $font-family;
+}
+
+.button-primary:hover {
+    background-color: $colour-primary-light;
+}
