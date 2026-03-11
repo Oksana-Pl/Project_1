@@ -22,7 +22,7 @@ h1 {
     color: $colour-primary-dark;
     @include heading1;
     margin: 0;
-}
+} 
 
 h2 {
     color: $colour-secondary-dark;
@@ -90,7 +90,7 @@ h2 {
 }
 
 
-//Documentation
+//nav bar
 .nav {
     list-style-type: none;
     margin-top: 20px;
@@ -116,9 +116,28 @@ h2 {
     background-color: $colour-primary-dark;
     color: $neutral-white;
 }
+//side nav
+.nav-components {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: $colour-primary-light;
+  }
+  
+  li a {
+    display: block;
+    color: $body-text;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: $colour-primary-dark;
+    color: $neutral-white;
+  }
 
 //typography page
-
 .type {
     div {
         margin-bottom: $spacing-m;

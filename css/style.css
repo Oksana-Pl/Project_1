@@ -115,6 +115,26 @@ h2 {
   color: #FFFFFF;
 }
 
+.nav-components {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #b1c1ce;
+}
+
+li a {
+  display: block;
+  color: #0D0D0D;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #4F7699;
+  color: #FFFFFF;
+}
+
 .type div {
   margin-bottom: 16px;
 }
