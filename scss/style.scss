@@ -13,6 +13,9 @@ body {
     flex-direction: column;
 }
 
+.title {
+    align-items: left;
+}
 h1 {
     color: $colour-primary-dark;
     @include heading1;

@@ -25,6 +25,10 @@ body {
   flex-direction: column;
 }
 
+.title {
+  align-items: left;
+}
+
 h1 {
   color: #4F7699;
   font-size: 80px;
