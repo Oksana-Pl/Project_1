@@ -117,12 +117,20 @@ h2 {
 .hero {
     @include hero-text;
 }
-
 .heading1 {
     @include heading1;
 }
-
 .heading2 {
     @include heading2;
 }
+.body-text {
+    font-size: $body-text-size;
+}
+.label {
+    font-size: $body-label-size;
+}
+.caption {
+    font-size: $body-label-size;
+}
+
  
