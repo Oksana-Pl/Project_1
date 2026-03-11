@@ -1,7 +1,7 @@
 @use 'foundations/index' as *;
 @use 'components/button/button.scss';
 
-//ruls 
+
 body {
     font-family: $font-family;
     color: $body-text;
@@ -11,10 +11,6 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-}
-
-.hero {
-    @include hero-text;
 }
 
 h1 {
@@ -116,6 +112,14 @@ h2 {
     color: $neutral-white;
 }
 
+//typography page
 
+.hero {
+    @include hero-text;
+}
+
+.heading1 {
+    @include heading1;
+}
 
  
