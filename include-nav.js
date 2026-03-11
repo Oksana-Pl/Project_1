@@ -1,5 +1,5 @@
-<script>
-document.addEventListener("DOMContentLoaded", () = {
+
+document.addEventListener("DOMContentLoaded", () => {
   const includes = document.querySelectorAll("[data-include]");
   
   includes.forEach(el => {
@@ -20,4 +20,3 @@ document.addEventListener("DOMContentLoaded", () = {
     }
   });
 });
-</script>
