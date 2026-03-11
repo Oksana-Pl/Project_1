@@ -25,14 +25,6 @@ body {
   flex-direction: column;
 }
 
-.hero {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 96px;
-  font-weight: 700;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-
 h1 {
   color: #4F7699;
   font-size: 80px;
@@ -116,4 +108,35 @@ h2 {
 .nav li a:hover {
   background-color: #4F7699;
   color: #FFFFFF;
+}
+
+.hero {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.heading1 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.heading2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.body-text {
+  font-size: 24px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.caption {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
