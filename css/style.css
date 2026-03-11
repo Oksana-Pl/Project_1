@@ -129,6 +129,11 @@ h2 {
   font-weight: 400;
 }
 
+.body-bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .body-text {
   font-size: 24px;
 }

@@ -34,3 +34,8 @@ $body-caption-size: 18px;
     font-size: $font-size-h2;
     font-weight: $font-weight-regular;
 }
+
+@mixin body-bold {
+    font-size: $body-text-size;
+    font-weight: bold;
+}

@@ -123,6 +123,9 @@ h2 {
 .heading2 {
     @include heading2;
 }
+.body-bold {
+    @include body-bold;
+}
 .body-text {
     font-size: $body-text-size;
 }
