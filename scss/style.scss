@@ -117,6 +117,11 @@ h2 {
     color: $neutral-white;
 }
 
+.nav li a.active {
+    background-color: $colour-primary-dark;
+    color: $neutral-white;
+}
+
 //nav components
 .nav-components {
     list-style-type: none;
@@ -144,7 +149,7 @@ h2 {
     color: $neutral-white;
 } 
 
-.nav-components li a.active {
+.nav-components li a.active-components {
     background-color: $colour-primary-light;
     color: $neutral-white;
     font-weight: bold;
