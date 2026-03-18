@@ -49,19 +49,22 @@ h2 {
             }
 
             .primary-dark {
-                background-color: $blue-500;
+                background-color: $colour-primary-dark;
             }
 
             .primary-light {
-                background-color: $blue-300;
+                background-color: $colour-primary-light;
+            }
+            .primary-light-100 {
+                background-color: $colour-primary-light-100;
             }
 
             .secondary-dark {
-                background-color: $beige-500;
+                background-color: $colour-secondary-dark;
             }
 
             .secondary-light {
-                background-color: $beige-200;
+                background-color: $colour-secondary-light;
             }
 
             .secondary-light-100 {

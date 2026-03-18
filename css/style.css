@@ -64,6 +64,9 @@ h2 {
 .color-palette .swatches .swatch .primary-light {
   background-color: #b1c1ce;
 }
+.color-palette .swatches .swatch .primary-light-100 {
+  background-color: #DFE8EF;
+}
 .color-palette .swatches .swatch .secondary-dark {
   background-color: #8C5A4F;
 }
