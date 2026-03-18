@@ -121,11 +121,6 @@ h2 {
   color: #FFFFFF;
 }
 
-.nav li a.active {
-  background-color: #4F7699;
-  color: #FFFFFF;
-}
-
 .nav-components {
   list-style-type: none;
   margin-top: 20px;
@@ -155,7 +150,6 @@ h2 {
 .nav-components li a.active-components {
   background-color: #b1c1ce;
   color: #FFFFFF;
-  font-weight: bold;
 }
 
 .type div {
