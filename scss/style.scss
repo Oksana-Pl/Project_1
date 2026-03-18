@@ -144,6 +144,13 @@ h2 {
     color: $neutral-white;
 } 
 
+.nav-components li a.active {
+    background-color: $colour-primary-light;
+    color: $neutral-white;
+    font-weight: bold;
+}
+
+
 //typography page
 .type {
     div {

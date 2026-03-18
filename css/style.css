@@ -147,6 +147,12 @@ h2 {
   color: #FFFFFF;
 }
 
+.nav-components li a.active {
+  background-color: #b1c1ce;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
 .type div {
   margin-bottom: 16px;
 }
