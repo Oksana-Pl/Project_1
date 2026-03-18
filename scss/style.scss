@@ -57,6 +57,9 @@ h2 {
             }
             .primary-light-100 {
                 background-color: $colour-primary-light-100;
+                border-width: 1px;
+                border-style: solid;
+                border-color: $neutral-light;
             }
 
             .secondary-dark {
