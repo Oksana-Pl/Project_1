@@ -222,4 +222,15 @@ h2 {
   background-color: #BBBBBB;
   margin-top: 16px;
   margin-bottom: 8px;
+}
+
+:root {
+  --primary-color: #3498db;
+  --text-color: #333;
+  --spacing-md: 16px;
 }/*# sourceMappingURL=style.css.map */
+
+.button-primary {
+  background-color: var(--primary-color);
+  margin: var(--spacing-md);
+}

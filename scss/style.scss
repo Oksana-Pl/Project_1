@@ -212,3 +212,14 @@ h2 {
     margin-bottom: $spacing-sm;
 }
 
+
+//inclass test
+$primary-color: #3498db;
+$text-color: #333;
+$spacing-md: 16px; 
+
+:root {
+    --primary-color: #{$primary-color};
+    --text-color: #{$text-color};
+    --spacing-md: #{$spacing-md};
+}
