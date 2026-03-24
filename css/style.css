@@ -232,5 +232,5 @@ h2 {
 
 .button-primary {
   background-color: var(--primary-color);
-  margin: var(--spacing-md);
+  padding: var(--spacing-md);
 }
