@@ -212,13 +212,17 @@ h2 {
 }
 
 
-//inclass test
-$primary-color: #3498db;
-$text-color: #333;
-$spacing-md: 16px; 
+// //inclass test
+// $primary-color: #3498db;
+// $text-color: #333;
+// $spacing-md: 16px; 
 
-:root {
-    --primary-color: #{$primary-color};
-    --text-color: #{$text-color};
-    --spacing-md: #{$spacing-md};
-} 
+// :root {
+//     --primary-color: #{$primary-color};
+//     --text-color: #{$text-color};
+//     --spacing-md: #{$spacing-md};
+// } 
+
+code {
+    background-color: $neutral-light;
+}

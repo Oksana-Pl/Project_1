@@ -224,13 +224,6 @@ h2 {
   margin-bottom: 8px;
 }
 
-:root {
-  --primary-color: #3498db;
-  --text-color: #333;
-  --spacing-md: 16px;
+code {
+  background-color: #BBBBBB;
 }/*# sourceMappingURL=style.css.map */
-
-.button-primary {
-  background-color: var(--primary-color);
-  padding: var(--spacing-md);
-}
