@@ -16,3 +16,27 @@
     background-color: $colour-secondary-light;
     color: $colour-primary-black;
 }
+
+
+.button-secondary{
+    background-color: $colour-secondary-light100;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: $colour-secondary-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-l;
+    padding: $spacing-m;
+    font-family: $font-family;
+    color: $colour-secondary-dark;
+}
+.button-secondary:hover {
+    background-color: $colour-secondary-light;
+    color: $colour-secondary-dark;
+}
+
+.button-secondary:disabled {
+    background-color: $neutral-light;
+    color: $neutral-white;
+    border: none;
+}
