@@ -68,7 +68,7 @@ h2 {
   background-color: #DFE8EF;
   border-width: 1px;
   border-style: solid;
-  border-color: #BBBBBB;
+  border-color: #c9c9c9;
 }
 .color-palette .swatches .swatch .secondary-dark {
   background-color: #8C5A4F;
@@ -80,19 +80,19 @@ h2 {
   background-color: #FFFDFC;
   border-width: 1px;
   border-style: solid;
-  border-color: #BBBBBB;
+  border-color: #c9c9c9;
 }
 .color-palette .swatches .swatch .neutral-dark {
   background-color: #7B7B7B;
 }
 .color-palette .swatches .swatch .neutral-light {
-  background-color: #BBBBBB;
+  background-color: #c9c9c9;
 }
 .color-palette .swatches .swatch .neutral-white {
   background-color: #FFFFFF;
   border-width: 1px;
   border-style: solid;
-  border-color: #BBBBBB;
+  border-color: #c9c9c9;
 }
 
 .nav {
@@ -195,7 +195,7 @@ h2 {
 .xs {
   height: 4px;
   width: 300px;
-  background-color: #BBBBBB;
+  background-color: #c9c9c9;
   margin-top: 16px;
   margin-bottom: 8px;
 }
@@ -203,7 +203,7 @@ h2 {
 .sm {
   height: 8px;
   width: 300px;
-  background-color: #BBBBBB;
+  background-color: #c9c9c9;
   margin-top: 16px;
   margin-bottom: 8px;
 }
@@ -211,7 +211,7 @@ h2 {
 .m {
   height: 16px;
   width: 300px;
-  background-color: #BBBBBB;
+  background-color: #c9c9c9;
   margin-top: 16px;
   margin-bottom: 8px;
 }
@@ -219,11 +219,11 @@ h2 {
 .l {
   height: 32px;
   width: 300px;
-  background-color: #BBBBBB;
+  background-color: #c9c9c9;
   margin-top: 16px;
   margin-bottom: 8px;
 }
 
 code {
-  background-color: #FFFDFC;
+  background-color: #DFE8EF;
 }/*# sourceMappingURL=style.css.map */
