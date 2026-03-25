@@ -30,21 +30,6 @@ body {
   color: #4F7699;
 }
 
-h1 {
-  color: #4F7699;
-  font-size: 80px;
-  font-weight: 300;
-  margin: 0;
-}
-
-h2 {
-  color: #8C5A4F;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 48px;
-  font-weight: 400;
-  margin: 20;
-}
-
 .color-palette {
   margin: 50px;
 }

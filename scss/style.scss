@@ -18,17 +18,17 @@ body {
     color: $colour-primary-dark;
 }
 
-h1 {
-    color: $colour-primary-dark;
-    @include heading1;
-    margin: 0;
-} 
+// h1 {
+//     color: $colour-primary-dark;
+//     @include heading1;
+//     margin: 0;
+// } 
 
-h2 {
-    color: $colour-secondary-dark;
-    @include heading2;
-    margin: 20;
-}
+// h2 {
+//     color: $colour-secondary-dark;
+//     @include heading2;
+//     margin: 20;
+// }
 
 
 
@@ -46,6 +46,9 @@ h2 {
                 width: 150px;
                 margin-right: $spacing-l;
                 margin-bottom: $spacing-sm;
+            }
+            .primary-black {
+                background-color: $colour-primary-black;
             }
             .primary-dark {
                 background-color: $colour-primary-dark;
