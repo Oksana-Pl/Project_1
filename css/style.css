@@ -164,11 +164,13 @@
   font-weight: 700;
   letter-spacing: 8px;
   text-transform: uppercase;
+  color: #4F7699;
 }
 
 .heading1 {
   font-size: 80px;
   font-weight: 300;
+  color: #4F7699;
 }
 
 .heading2 {
@@ -224,8 +226,4 @@
   background-color: #c9c9c9;
   margin-top: 16px;
   margin-bottom: 8px;
-}
-
-section {
-  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
