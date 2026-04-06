@@ -21,9 +21,10 @@ section {
 
 .block {
     margin: 50px 0;
-    border-bottom: 1px solid rgb(188, 188, 188);
-    border-top: 1px solid rgb(188, 188, 188);
-    
+    border: 1px solid #e5e2e2;
+    border-radius: 10px;
+    padding: 20px;
+   
 }
 
 .intext-code {
