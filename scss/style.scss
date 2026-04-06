@@ -141,11 +141,11 @@
 
 
 //typography 
-.type {
-    div {
-        margin-bottom: $spacing-m;
-    }
-}
+// .type {
+//     div {
+//         margin-bottom: $spacing-m;
+//     }
+// }
 .hero {
     @include hero-text;
     color: $colour-primary-dark;
