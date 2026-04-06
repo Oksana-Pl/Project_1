@@ -92,6 +92,19 @@
   border-style: solid;
   border-color: #c9c9c9;
 }
+.color-palette .swatches .swatch .success-light {
+  background-color: #E9FFF2;
+  border: 1px solid #c9c9c9;
+}
+.color-palette .swatches .swatch .success-dark {
+  background-color: #007E33;
+}
+.color-palette .swatches .swatch .error-light {
+  background-color: #FFEDED;
+}
+.color-palette .swatches .swatch .error-dark {
+  background-color: #CC0100;
+}
 
 .nav {
   list-style-type: none;

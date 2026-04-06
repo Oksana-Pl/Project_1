@@ -57,6 +57,19 @@
                 border-style: solid;
                 border-color: $neutral-light;
             }
+            .success-light {
+                background-color: $success-light;
+                border: 1px solid $neutral-light;
+            }
+            .success-dark {
+                background-color: $success-dark;
+            }
+            .error-light {
+                background-color: $error-light;
+            }
+            .error-dark {
+                background-color: $error-dark;
+            }
         }  
     }
 }
