@@ -15,8 +15,8 @@ $white: #FFFFFF;
 //feedback colors
 $error-200: #FFEDED;
 $error-600: #CC0100;
-$successes-200: #E9FFF2;
-$E9FFF2-600: #007E33;
+$successe-200: #E9FFF2;
+$success-600: #007E33;
 
 // Samantic tokens
 
@@ -35,5 +35,12 @@ $colour-secondary-light100: $beige-100;
 $neutral-dark: $neutral-600;
 $neutral-light: $neutral-400;
 $neutral-white: $white;
+
+//feedback
+
+$successes-light: $successes-200;
+$successes-dark: $success-600;
+$error-light: $error-200;
+$error-dark: $error-600;
 
 
