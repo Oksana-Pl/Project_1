@@ -14,3 +14,7 @@ main {
 section {
     margin-bottom: 50px;
 }  
+
+.block {
+    margin: 20px 0;
+}
