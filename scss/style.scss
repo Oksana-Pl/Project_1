@@ -142,7 +142,7 @@
     color: $colour-primary-dark;
 }
 .heading2 {
-    @include heading2;
+    @include heading2; 
 }
 .body-bold {
     @include body-bold;
