@@ -16,58 +16,68 @@
 
         <section>
             <div class="heading2">Colors</div>
-            <div class="block">
-            <div class="container">
-                <!-- primary color palette -->
-                <h2>Primary colours</h2>
-                <p class="body-text">
-                    Use a primary color palette for the most significant elements on the screen that will convey
-                    the brand's personality and overall design style. Use primary color palette for:
+            <p class="body-text">
+                Color styles in this design system are organized into palette sets:
                 <ul class="body-text">
-                    <li>Branded elements and logo</li>
-                    <li>Primary buttons</li>
-                    <li>Active states</li>
-                </ul>
-                </p>
-                <!-- palette itself -->
-                <div class="color-palette">
-                    <section class="swatches">
-                        <div class="swatch">
-                            <div class="primary-black"></div>
-                            primary-black
-                        </div>
-                        <div class="swatch">
-                            <div class="primary-dark"></div>
-                            primary-dark
-                        </div>
-                        <div class="swatch">
-                            <div class="primary-light"></div>
-                            primary-light
-                        </div>
-                        <div class="swatch">
-                            <div class="primary-light-100"></div>
-                            primary-light-100
-                        </div>
-                    </section>
-                </div>
-                <!-- how to use -->
-                <p class="body-text">
-                    To apply colors from the primary palette, use the predefined Samantic tokens in your SCSS file:
-                    <textarea class="code code-colors" readonly>
+<li>the primary palette for core interface elements (brand elements, primary buttons, logo); </li>
+<li>the secondary palette for supporting elements that complement the primary palette (infographics, image tones, secondary buttons, card elements, icons); </li>
+<li>the neutral palette for inputs, placeholders, borders, and disabled states; </li>
+<li>the feedback palette for error and success feedback messages.</li>
+</ul>
+            </p>
+
+            <div class="block">
+                <div class="container">
+                    <!-- primary color palette -->
+                    <h2>Primary colours</h2>
+                    <p class="body-text">
+                        Use a primary color palette for the most significant elements on the screen that will convey
+                        the brand's personality and overall design style. Use primary color palette for:
+                    <ul class="body-text">
+                        <li>Branded elements and logo</li>
+                        <li>Primary buttons</li>
+                        <li>Active states</li>
+                    </ul>
+                    </p>
+                    <!-- palette itself -->
+                    <div class="color-palette">
+                        <section class="swatches">
+                            <div class="swatch">
+                                <div class="primary-black"></div>
+                                primary-black
+                            </div>
+                            <div class="swatch">
+                                <div class="primary-dark"></div>
+                                primary-dark
+                            </div>
+                            <div class="swatch">
+                                <div class="primary-light"></div>
+                                primary-light
+                            </div>
+                            <div class="swatch">
+                                <div class="primary-light-100"></div>
+                                primary-light-100
+                            </div>
+                        </section>
+                    </div>
+                    <!-- how to use -->
+                    <p class="body-text">
+                        To apply colors from the primary palette, use the predefined Samantic tokens in your SCSS file:
+                        <textarea class="code code-colors" readonly>
                     $colour-primary-black;
                     $colour-primary-dark;
                     $colour-primary-light;
                     $colour-primary-light-100;
                     </textarea>
-                <p class="body-text"> Example:</p>
-                <textarea class="code code-colors" readonly>
+                    <p class="body-text"> Example:</p>
+                    <textarea class="code code-colors" readonly>
                         .nav {
                             background-color: $colour-primary-light;
                         }
                     </textarea>
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
             <!-- secondary color palette -->
             <div class="block">
@@ -150,8 +160,8 @@
                             </div>
                         </section>
                     </div>
-                     <!-- how to use -->
-                     <p class="body-text">
+                    <!-- how to use -->
+                    <p class="body-text">
                         To apply colors from the neutral palette, use the predefined Samantic tokens in your SCSS
                         file:
                         <textarea class="code code-colors" readonly>
@@ -203,11 +213,11 @@
                                 error-light
                             </div>
 
-                            
+
                         </section>
                     </div>
-                     <!-- how to use -->
-                     <p class="body-text">
+                    <!-- how to use -->
+                    <p class="body-text">
                         To apply colors from the feedback palette, use the predefined Samantic tokens in your SCSS
                         file:
                         <textarea class="code code-colors" readonly>
