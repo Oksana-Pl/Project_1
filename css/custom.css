@@ -22,3 +22,9 @@ section {
 .block {
     margin: 50px 0;
 }
+
+.intext-code {
+    margin: 0 10px;
+    background-color: #f5f5f5;
+    color: rgb(21, 160, 240);
+}
