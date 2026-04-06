@@ -28,7 +28,7 @@
                     <li>Active states</li>
                 </ul>
                 </p>
-              
+                <!-- palette itself -->
                 <div class="color-palette">
                     <section class="swatches">
                         <div class="swatch">
@@ -49,21 +49,25 @@
                         </div>
                     </section>
                 </div>
-<p class="body-text">
-    To apply colors from the primary palette, use the predefined Samantic tokens in your SCSS file:
-    <textarea class="code" readonly>
+                <!-- how to use -->
+                <p class="body-text">
+                    To apply colors from the primary palette, use the predefined Samantic tokens in your SCSS file:
+                    <textarea class="code" readonly>
         $colour-primary-black;
         $colour-primary-dark;
         $colour-primary-light;
         $colour-primary-light-100;
     </textarea>
-    <p class="body-text"> Example:</p>
-    <textarea class="code" readonly>
+                <p class="body-text"> Example:</p>
+                <textarea class="code" readonly>
         .nav {
             background-color: $colour-primary-light;
         }
     </textarea>
-</p>
+                </p>
+                </div>
+
+                <div class="container">
                 <!-- secondary color palette -->
                 <div class="color-palette">
                     <h2>Secondary colours</h2>
@@ -82,7 +86,9 @@
                         </div>
                     </section>
                 </div>
+            </div>
 
+            <div class="container">
                 <!-- neutral color palette -->
                 <div class="color-palette">
                     <h2>Neutral colours</h2>
@@ -103,7 +109,6 @@
                         </div>
                     </section>
                 </div>
-
             </div>
         </section>
     </main>
