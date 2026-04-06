@@ -206,17 +206,19 @@
                     </div>
                      <!-- how to use -->
                      <p class="body-text">
-                        To apply colors from the neutral palette, use the predefined Samantic tokens in your SCSS
+                        To apply colors from the feedback palette, use the predefined Samantic tokens in your SCSS
                         file:
                         <textarea class="code" readonly>
-                            $neutral-dark;
-                            $neutral-light;
-                            $neutral-white;
+                            $success-light;
+                            $success-dark;
+                            $error-light;
+                            $error-dark;
                     </textarea>
                     <p class="body-text"> Example:</p>
                     <textarea class="code" readonly>
-                        p {
-                            background-color: $neutral-light;
+                        .error {
+                            background-color: $error-light;
+                            border: 1px solid $error-dark;
                         }
                     </textarea>
                     </p>
