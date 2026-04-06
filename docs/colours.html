@@ -68,86 +68,104 @@
             </div>
 
             <!-- secondary color palette -->
-             <div class="block">
-            <div class="container">
-                <h2>Secondary colours</h2>
-                <p class="body-text">
-                    Use the secondary color palette to support and complement the primary brand colors.
-                     Use this palette to:
-                     <ul class="body-text">
+            <div class="block">
+                <div class="container">
+                    <h2>Secondary colours</h2>
+                    <p class="body-text">
+                        Use the secondary color palette to support and complement the primary brand colors.
+                        Use this palette to:
+                    <ul class="body-text">
                         <li>Highlight supporting elements</li>
                         <li>Style secondary buttons and alternative actions</li>
                         <li>Support data visualization and iconography</li>
                     </ul>
-                </p>
-                <div class="color-palette">
-                    <section class="swatches">
-                        <div class="swatch">
-                            <div class="secondary-dark"></div>
-                            secondary-dark
-                        </div>
-                        <div class="swatch">
-                            <div class="secondary-light"></div>
-                            secondary-light
-                        </div>
-                        <div class="swatch">
-                            <div class="secondary-light-100"></div>
-                            secondary-light-100
-                        </div>
-                    </section>
-                </div>
-                <!-- how to use -->
-                <p class="body-text">
-                    To apply colors from the secondary palette, use the predefined Samantic tokens in your SCSS file:
-                    <textarea class="code" readonly>
+                    </p>
+                    <div class="color-palette">
+                        <section class="swatches">
+                            <div class="swatch">
+                                <div class="secondary-dark"></div>
+                                secondary-dark
+                            </div>
+                            <div class="swatch">
+                                <div class="secondary-light"></div>
+                                secondary-light
+                            </div>
+                            <div class="swatch">
+                                <div class="secondary-light-100"></div>
+                                secondary-light-100
+                            </div>
+                        </section>
+                    </div>
+                    <!-- how to use -->
+                    <p class="body-text">
+                        To apply colors from the secondary palette, use the predefined Samantic tokens in your SCSS
+                        file:
+                        <textarea class="code" readonly>
                         $colour-secondary-dark;
                         $colour-secondary-light;
                         $colour-secondary-light100;
                     </textarea>
-                <p class="body-text"> Example:</p>
-                <textarea class="code" readonly>
+                    <p class="body-text"> Example:</p>
+                    <textarea class="code" readonly>
                         .card {
                             background-color: $colour-secondary-light100;
                             color: $colour-secondary-dark;
                         }
                     </textarea>
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
-<!-- neutral color palette -->
-        <div class="block">
-            <div class="container">
-                <h2>Neutral colours</h2>
-                <p class="body-text">
-                    Use the neutral color palette for layout structure, non-emotional UI and disabled states. 
-                    Use it for:
-                     <ul class="body-text">
+            <!-- neutral color palette -->
+            <div class="block">
+                <div class="container">
+                    <h2>Neutral colours</h2>
+                    <p class="body-text">
+                        Use the neutral color palette for layout structure, non-emotional UI and disabled states.
+                        Use it for:
+                    <ul class="body-text">
                         <li>HBorders and dividers</li>
                         <li>Supportive text</li>
                         <li>Disabled states</li>
                     </ul>
-                </p>
-                <div class="color-palette">  
-                    <section class="swatches">
-                        <div class="swatch">
-                            <div class="neutral-dark"></div>
-                            neutral-dark
-                        </div>
+                    </p>
+                    <!-- palette itself -->
+                    <div class="color-palette">
+                        <section class="swatches">
+                            <div class="swatch">
+                                <div class="neutral-dark"></div>
+                                neutral-dark
+                            </div>
 
-                        <div class="swatch">
-                            <div class="neutral-light"></div>
-                            neutral-light
-                        </div>
+                            <div class="swatch">
+                                <div class="neutral-light"></div>
+                                neutral-light
+                            </div>
 
-                        <div class="swatch">
-                            <div class="neutral-white"></div>
-                            neutral-white
-                        </div>
-                    </section>
+                            <div class="swatch">
+                                <div class="neutral-white"></div>
+                                neutral-white
+                            </div>
+                        </section>
+                    </div>
+                     <!-- how to use -->
+                     <p class="body-text">
+                        To apply colors from the neutral palette, use the predefined Samantic tokens in your SCSS
+                        file:
+                        <textarea class="code" readonly>
+                            $neutral-dark;
+                            $neutral-light;
+                            $neutral-white;
+                    </textarea>
+                    <p class="body-text"> Example:</p>
+                    <textarea class="code" readonly>
+                        p {
+                            background-color: $neutral-light;
+                        }
+                    </textarea>
+                    </p>
                 </div>
             </div>
-        </div>
         </section>
     </main>
 </body>
