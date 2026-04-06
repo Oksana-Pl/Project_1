@@ -9,7 +9,10 @@ main {
     width: 100%;
     padding: 10px;
     margin: 20px 0;
-    height: 60px;
+}
+
+.code-colors {
+    height: 70px;
 }
 
 section {
