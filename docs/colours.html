@@ -50,7 +50,7 @@
                     </section>
                 </div>
 <p class="body-text">
-    To apply colors from the primary palette, use the predefined SCSS variables:
+    To apply colors from the primary palette, use the predefined Samantic tokens in your SCSS file:
     <textarea class="code" readonly>
         $colour-primary-black;
         $colour-primary-dark;
@@ -59,10 +59,9 @@
     </textarea>
     <p class="body-text"> Example:</p>
     <textarea class="code" readonly>
-        $colour-primary-black;
-        $colour-primary-dark;
-        $colour-primary-light;
-        $colour-primary-light-100;
+        .nav {
+            background-color: $colour-primary-light;
+        }
     </textarea>
 </p>
                 <!-- secondary color palette -->
