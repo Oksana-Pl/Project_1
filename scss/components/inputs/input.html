@@ -26,12 +26,22 @@
                 This Design System includes essential form input components such as labels,
                 text inputs, textareas, select dropdowns, radio buttons, and checkboxes.
             </p>
+
+            <!-- form control -->
             <div class="block">
                 <div class="heading2">
-                    Form Controls
+                    Form Control
                     <p class="body-text">To use form input in your design, use the class
-                        <code class="intext-code">.form-group</code> for your container. In Your HTML use <code class="intext-code">class="form-group"</code>
+                        <code class="intext-code">.form-group</code> for your container. In Your HTML use <code class="intext-code">class="form-group"</code>. 
+                        Also use appropriate class name for your labels: <code class="intext-code">class="form-label"</code>,
+                        <code class="intext-code">class="form-label-error"</code> or <code class="intext-code">form-label-success"</code>.
                     </p>
+                    <p class="body-text">Example:</p>
+                    <textarea class="code code-h70" readonly>
+                        <label for="input-regular" class="form-label">First Name</label>
+                        <label for="input-email" class="form-label-error">Email</label>
+                        <label for="input-email" class="form-label-success">Email</label>
+                    </textarea>
                 </div>
                 <p class="body-text">To use regular text input in your design, use the class
                     <code class="intext-code">.form-control</code>. In Your HTML use <code class="intext-code">class="form-control"</code>
@@ -41,19 +51,18 @@
                     <label for="input-regular" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="input-regular" placeholder="Your Name">
                 </div>
-                <textarea class="code-medium" readonly>
+                <textarea class="code code-h70" readonly>
                     <div class="form-group">
                         <label for="input-regular" class="form-label">First Name</label>
                         <input type="text" class="form-control" id="input-regular" placeholder="Your Name">
                     </div>
                 </textarea>
-        
-
+                   <!-- email input -->
                 <div class="form-group">
                     <label for="input-email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="input-email" placeholder="e.g. yourname@gmail.com">
                 </div>
-
+                    <!-- error input -->
                 <div class="form-group">
                     <label for="input-email" class="form-label-error">Email</label>
                     <input type="email" class="form-control error" id="input-email" placeholder="e.g. yourname@gmail.com">
