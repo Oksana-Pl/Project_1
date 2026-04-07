@@ -18,6 +18,12 @@
   color: #CC0100;
 }
 
+.form-label-success {
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 20px;
+  color: #007E33;
+}
+
 .form-control {
   padding: 10px 10px;
   border: 1px solid #8C5A4F;

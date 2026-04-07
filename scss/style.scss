@@ -6,7 +6,7 @@
 // Swatces 
 .color-palette {  
     margin: 50px;
-  
+   
     .swatches { 
         display: flex;
         flex-direction: row;
@@ -151,7 +151,7 @@
     @include heading1;
     color: $colour-primary-dark; 
 }    
-.heading2 {  
+.heading2 {   
     @include heading2; 
 }    
 .body-bold {

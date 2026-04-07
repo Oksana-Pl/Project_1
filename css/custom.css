@@ -17,14 +17,14 @@ main {
 
 section {
     margin-bottom: 10px;
-}  
+}
 
 .block {
     margin: 50px 0;
     border: 1px solid #e5e2e2;
     border-radius: 10px;
     padding: 20px;
-   
+
 }
 
 .intext-code {
@@ -34,3 +34,8 @@ section {
     font-size: 20px;
 }
 
+.label-example {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

@@ -20,6 +20,12 @@
     color: $error-dark;
   }
 
+  .form-label-success {
+    font-family: $font-family-regular;
+    font-size: $body-label-size;
+    color: $success-dark;
+  }
+  
 .form-control {
     padding: 10px 10px;
     border: 1px solid $colour-secondary-dark;
