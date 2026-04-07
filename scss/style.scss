@@ -146,14 +146,14 @@
 .hero { 
     @include hero-text;
     color: $colour-primary-dark;
-} 
+}  
 .heading1 { 
     @include heading1;
     color: $colour-primary-dark; 
 }  
-.heading2 {
+.heading2 {  
     @include heading2; 
-}
+}  
 .body-bold {
     @include body-bold;
 }

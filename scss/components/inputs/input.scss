@@ -17,7 +17,14 @@
 .form-control {
     padding: 10px 10px;
     border: 1px solid $colour-secondary-dark;
+    border-radius: $spacing-sm;
     font-size: $body-text-size;
     font-family: $font-family-regular;
-
+    color: $colour-secondary-dark;
+    background-color: $colour-secondary-light100;
 } 
+
+.form-control:focus {
+    outline: none;
+    border: 2px solid $colour-secondary-dark;
+}
