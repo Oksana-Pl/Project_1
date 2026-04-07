@@ -129,7 +129,7 @@
     font-size: $body-text-size;
     font-family: $font-family;
 }
-
+ 
 .nav-components li a:hover {
     background-color: $colour-primary-light;
     color: $neutral-white;
@@ -159,12 +159,15 @@
 }
 .body-text {
     font-size: $body-text-size;
+    font-family: $font-family-regular;
 } 
 .label {
     font-size: $body-label-size;
+    font-family: $font-family-regular;
 }
 .caption {
     font-size: $body-caption-size;
+    font-family: $font-family-regular;
 } 
   
 //spacing page

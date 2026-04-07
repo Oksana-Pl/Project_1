@@ -1,6 +1,7 @@
 // <weight>: Use a value from 100 to 700
 
 $font-family-headings: "Josefin Sans", sans-serif;
+$font-family-regular: "Baloo Chettan 2", sans-serif;
 $font-weight-bold: 700;
 $font-weight-light: 300;
 $font-weight-regular: 400;
@@ -39,4 +40,5 @@ $body-caption-size: 18px;
 @mixin body-bold {
     font-size: $body-text-size;
     font-weight: bold;
+    font-family: $font-family-regular;
 }
