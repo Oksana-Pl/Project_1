@@ -4,9 +4,9 @@
 
 
 // Swatces
-.color-palette {
+.color-palette {  
     margin: 50px;
-
+  
     .swatches {
         display: flex;
         flex-direction: row;
@@ -159,7 +159,7 @@
 }
 .body-text {
     font-size: $body-text-size;
-}
+} 
 .label {
     font-size: $body-label-size;
 }

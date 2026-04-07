@@ -6,9 +6,11 @@
     gap: 6px;
     margin-bottom: 16px;
   }
-  
+
 .form-control {
     padding: 14px 16px;
     border: 1px solid $colour-secondary-dark;
-
+    font-size: $body-text-size;
+    font-family: $font-family;
+    
 } 
