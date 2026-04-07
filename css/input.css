@@ -1,3 +1,10 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
 .form-control {
   padding: 14px 16px;
   border: 1px solid #8C5A4F;
