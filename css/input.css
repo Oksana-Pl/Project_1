@@ -12,6 +12,12 @@
   font-size: 20px;
 }
 
+.form-label-error {
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 20px;
+  color: #CC0100;
+}
+
 .form-control {
   padding: 10px 10px;
   border: 1px solid #8C5A4F;
@@ -25,4 +31,15 @@
 .form-control:focus {
   outline: none;
   border: 2px solid #8C5A4F;
+}
+
+.error {
+  border: 1px solid #CC0100;
+  background-color: #FFEDED;
+}
+
+.error-feedback {
+  color: #CC0100;
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 18px;
 }/*# sourceMappingURL=input.css.map */

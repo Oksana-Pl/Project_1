@@ -14,6 +14,12 @@
     font-size: $body-label-size;
   }
 
+  .form-label-error {
+    font-family: $font-family-regular;
+    font-size: $body-label-size;
+    color: $error-dark;
+  }
+
 .form-control {
     padding: 10px 10px;
     border: 1px solid $colour-secondary-dark;
@@ -27,4 +33,15 @@
 .form-control:focus {
     outline: none;
     border: 2px solid $colour-secondary-dark;
+}
+
+.error {
+    border: 1px solid $error-dark;
+    background-color: $error-light;
+}
+
+.error-feedback {
+    color: $error-dark;
+    font-family: $font-family-regular;
+    font-size: $body-caption-size;
 }
