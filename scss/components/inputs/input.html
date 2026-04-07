@@ -92,7 +92,7 @@
                     </div>
                 </textarea>
             </div>
-                    <!-- error input -->
+                    <!-- validation input -->
                      <div class="block">
                         <div class="body-bold">Validation</div>
                         <p class="body-text">For invalid fields use
@@ -121,20 +121,36 @@
                 </p>
                 <p class="body-text">Example:</p>
         <div class="form-group">
-            <label for="input-email" class="form-label-error">Email</label>
-            <input type="email" class="form-control error" id="input-email" placeholder="e.g. yourname@gmail.com">
-            <div class="error-feedback">Please provide valid email</div>
+            <label for="input-email" class="form-label-success">Email</label>
+            <input type="email" class="form-control success" id="input-email" placeholder="e.g. yourname@gmail.com">
+            <div class="success-feedback">Please provide valid email</div>
         </div>
         <textarea class="code code-h70" readonly>
             <div class="form-group">
-                <label for="input-email" class="form-label-error">Email</label>
-                <input type="email" class="form-control error" id="input-email" placeholder="e.g. yourname@gmail.com">
-                <div class="error-feedback">Please provide valid email</div>
+                <label for="input-email" class="form-label-success">Email</label>
+                <input type="email" class="form-control success" id="input-email" placeholder="e.g. yourname@gmail.com">
+                <div class="success-feedback">Please provide valid email</div>
             </div>
         </textarea>
             </div>
 
-            
+            <!-- select/dropdown -->
+            <div class="block">
+                <div class="body-bold">Select</div>
+                <p class="body-text">
+                    To create a select menu use 
+                </p>
+
+                <div class="form-group">
+                <label class="form-label" for="choose-country">Choose a country:</label>
+                <select class="form-select" id="choose-country">
+                    <option selected>Choose option</option>
+                    <option value="1">Option One</option>
+                    <option value="2">Option Two</option>
+                    <option value="3">Option Three</option>
+                  </select>
+                </div>
+            </div>
 
 
 

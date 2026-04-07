@@ -59,4 +59,18 @@
   color: #007E33;
   font-family: "Baloo Chettan 2", sans-serif;
   font-size: 18px;
+}
+
+.form-select {
+  padding: 10px 10px;
+  border: 1px solid #8C5A4F;
+  border-radius: 8px;
+  font-size: 24px;
+  font-family: "Baloo Chettan 2", sans-serif;
+  color: #8C5A4F;
+  background-color: #FFFDFC;
+}
+
+option {
+  background-color: #FFFDFC;
 }/*# sourceMappingURL=input.css.map */
