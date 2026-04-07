@@ -1,2 +1,7 @@
 @use "../../foundations/index.scss" as *; 
 
+.form-control {
+    padding: 14px 16px;
+    border: 1px solid $colour-secondary-dark;
+    
+}

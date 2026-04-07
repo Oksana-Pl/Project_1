@@ -1,5 +1,6 @@
 @use 'foundations/index' as *;
 @use 'components/button/button.scss';
+@use 'components/inputs/input.scss';
 
 
 // Swatces
@@ -198,4 +199,5 @@
     margin-bottom: $spacing-sm;
 }
 
+ 
   
