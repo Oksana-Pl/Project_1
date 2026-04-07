@@ -9,7 +9,7 @@
     text-transform: uppercase;
     margin: $spacing-l;
     padding: $spacing-m;
-    font-family: $font-family;
+    font-family: $font-family-headings;
     color: $neutral-white;
 }
 .button-primary:hover {
@@ -27,7 +27,7 @@
     text-transform: uppercase;
     margin: $spacing-l;
     padding: $spacing-m;
-    font-family: $font-family;
+    font-family: $font-family-headings;
     color: $colour-secondary-dark;
 }
 .button-secondary:hover {

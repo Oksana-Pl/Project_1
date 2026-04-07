@@ -28,7 +28,7 @@ $body-caption-size: 18px;
 @mixin heading1 {
     font-family: $font-family-headings;
     font-size: $font-size-h1;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-regular;
 }
 
 @mixin heading2 {

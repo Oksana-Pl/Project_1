@@ -3,11 +3,11 @@
 @use 'components/inputs/input.scss';
 
 
-// Swatces
+// Swatces 
 .color-palette {  
     margin: 50px;
   
-    .swatches {
+    .swatches { 
         display: flex;
         flex-direction: row;
    
@@ -26,7 +26,7 @@
             }
             .primary-light {
                 background-color: $colour-primary-light;
-            }
+            } 
             .primary-light-100 { 
                 background-color: $colour-primary-light-100;
                 border-width: 1px;
@@ -84,7 +84,7 @@
     padding: 0;
     overflow: hidden;
     background-color: $colour-primary-light;
-    font-family: $font-family;
+    font-family: $font-family-headings;
 }
 
 .nav li {
@@ -127,7 +127,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: $body-text-size;
-    font-family: $font-family;
+    font-family: $font-family-headings; 
 }
  
 .nav-components li a:hover {
@@ -149,7 +149,7 @@
 } 
 .heading1 {
     @include heading1;
-    color: $colour-primary-dark;
+    color: $colour-primary-dark; 
 } 
 .heading2 {
     @include heading2; 

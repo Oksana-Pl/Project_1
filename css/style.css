@@ -47,11 +47,16 @@
   margin-bottom: 16px;
 }
 
+.form-label {
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 20px;
+}
+
 .form-control {
   padding: 14px 16px;
   border: 1px solid #8C5A4F;
   font-size: 24px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Baloo Chettan 2", sans-serif;
 }
 
 .color-palette {
@@ -192,7 +197,7 @@
 .heading1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 80px;
-  font-weight: 300;
+  font-weight: 400;
   color: #4F7699;
 }
 
@@ -205,18 +210,22 @@
 .body-bold {
   font-size: 24px;
   font-weight: bold;
+  font-family: "Baloo Chettan 2", sans-serif;
 }
 
 .body-text {
   font-size: 24px;
+  font-family: "Baloo Chettan 2", sans-serif;
 }
 
 .label {
   font-size: 20px;
+  font-family: "Baloo Chettan 2", sans-serif;
 }
 
 .caption {
   font-size: 18px;
+  font-family: "Baloo Chettan 2", sans-serif;
 }
 
 .xs {
