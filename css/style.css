@@ -92,6 +92,17 @@
   font-size: 18px;
 }
 
+.success {
+  border: 1px solid #007E33;
+  background-color: #E9FFF2;
+}
+
+.success-feedback {
+  color: #007E33;
+  font-family: "Baloo Chettan 2", sans-serif;
+  font-size: 18px;
+}
+
 .color-palette {
   margin: 50px;
 }

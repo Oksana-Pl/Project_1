@@ -25,7 +25,7 @@
     font-size: $body-label-size;
     color: $success-dark;
   }
-  
+
 .form-control {
     padding: 10px 10px;
     border: 1px solid $colour-secondary-dark;
@@ -48,6 +48,17 @@
 
 .error-feedback {
     color: $error-dark;
+    font-family: $font-family-regular;
+    font-size: $body-caption-size;
+}
+
+.success {
+    border: 1px solid $success-dark;
+    background-color: $success-light;
+}
+
+.success-feedback {
+    color: $success-dark;
     font-family: $font-family-regular;
     font-size: $body-caption-size;
 }
