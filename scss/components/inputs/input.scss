@@ -2,6 +2,8 @@
 
 .form-group {
     display: flex;
+    width: 100%;
+    max-width: 500px;
     flex-direction: column;
     gap: 6px;
     margin-bottom: 16px;
@@ -16,5 +18,6 @@
     border: 1px solid $colour-secondary-dark;
     font-size: $body-text-size;
     font-family: $font-family-regular;
+    max-width: 500px;
 
 } 

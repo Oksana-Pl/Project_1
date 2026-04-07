@@ -1,5 +1,7 @@
 .form-group {
   display: flex;
+  width: 100%;
+  max-width: 500px;
   flex-direction: column;
   gap: 6px;
   margin-bottom: 16px;
@@ -15,4 +17,5 @@
   border: 1px solid #8C5A4F;
   font-size: 24px;
   font-family: "Baloo Chettan 2", sans-serif;
+  max-width: 500px;
 }/*# sourceMappingURL=input.css.map */
