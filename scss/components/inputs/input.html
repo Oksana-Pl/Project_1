@@ -180,8 +180,8 @@
             <!-- textarea -->
             <div class="block">
                 <div class="body-bold">Textarea</div>
-                <p class="body-text">To use textarea in your design, use the class
-                    <code class="intext-code">.form-control</code> to maintain the same input style. </br> In Your HTML
+                <p class="body-text">To use a textarea in your design, use the class
+                    <code class="intext-code">.form-control</code> to maintain the same input style. <br> In Your HTML
                     use <code class="intext-code">class="form-control"</code>
                 </p>
                 <p class="body-text">Example:</p>
@@ -195,11 +195,11 @@
             <div class="block">
                 <div class="body-bold">Checkbox</div>
                 <p class="body-text">
-                    To create a checkbox use  <code class="intext-code">.check-container</code> class for your container tag.
-                    In Your HTML use  <code class="intext-code">class="check-container"</code></br>
-                    Use class <code class="intext-code">.checkmark</code> to applycustom checkmark style from this design system.</br>
-                    Use <code class="intext-code">type="checkbox"</code> in your HTML for <code class="intext-code">input</code> tag.
-                </p>
+                    To create a checkbox input, use the <code class="intext-code">.check-container</code> class on the container element.
+                    In your HTML, apply <code class="intext-code">class="check-container"</code> to the wrapper.
+                    Use the <code class="intext-code">.checkmark</code> class to apply custom checkbox styles from this design system.
+                    Set <code class="intext-code">type="checkbox"</code> for the <code class="intext-code">input</code> element.
+                  </p>
                 <p class="body-text">Example:</p>
 
                 <label class="check-container">One
@@ -251,11 +251,11 @@
             <div class="block">
                 <div class="body-bold">Radio</div>
                 <p class="body-text">
-                    To create a radio input  use <code class="intext-code">.radio-container</code> class for your container tag.
-                    In Your HTML use  <code class="intext-code">class="radio-container"</code></br>
-                    Use class <code class="intext-code">.radiobtn</code> to apply styles for your radio button.</br>
-                    Use <code class="intext-code">type="radio"</code> in your HTML for <code class="intext-code">input</code> tag.
-                </p>
+                    To create a radio input, use the <code class="intext-code">.radio-container</code> class on the container element.
+                    In your HTML, apply <code class="intext-code">class="radio-container"</code> to the wrapper.
+                    Use <code class="intext-code">class="radiobtn"</code> on the <code class="intext-code">input</code> element to apply custom radio styles.
+                    Set <code class="intext-code">type="radio"</code> for the <code class="intext-code">input</code> element.
+                  </p>
                 <p class="body-text">Example:</p>
 
                 <label class="radio-container">One
@@ -285,11 +285,11 @@
              <div class="block">
                 <div class="body-bold">Toggle Switch</div>
                 <p class="body-text">
-                    To create a Toggle Switch input  use <code class="intext-code">.radio-container</code> class for your container tag.
-                    In Your HTML use  <code class="intext-code">class="radio-container"</code></br>
-                    Use class <code class="intext-code">.radiobtn</code> to apply styles for your radio button.</br>
-                    Use <code class="intext-code">type="radio"</code> in your HTML for <code class="intext-code">input</code> tag.
-                </p>
+                    To create a toggle switch input, use the <code class="intext-code">.switch</code> class on the container element.
+                    In your HTML, apply <code class="intext-code">class="switch"</code> to the wrapper element.
+                    Use <code class="intext-code">class="switch-example"</code> and <code class="intext-code">type="checkbox"</code> on the <code class="intext-code">input</code> element to apply toggle switch styles.
+                    Use the <code class="intext-code">.slider</code> and <code class="intext-code">.round</code> classes to create a rounded toggle slider.
+                  </p>
                 <p class="body-text">Example:</p>
 
                 <label class="switch">
@@ -297,16 +297,11 @@
                     <span class="slider round"></span>
                   </label>
 
-                  <textarea class="code code-h150" readonly>
-                    <label class="radio-container">One
-                    <input type="radio" name="radio-example" checked="checked">
-                    <span class="radiobtn"></span>
-                  </label>
-                  
-                  <label class="radio-container">Two
-                    <input type="radio" name="radio-example">
-                    <span class="radiobtn"></span>
-                  </label>
+                  <textarea class="code code-h70" readonly>
+                    <label class="switch">
+                        <input type="checkbox" class="switch-example">
+                        <span class="slider round"></span>
+                      </label>
                 </textarea>
             </div>
 
