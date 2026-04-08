@@ -351,6 +351,12 @@
   border-radius: 50%;
 }
 
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
 .color-palette {
   margin: 50px;
 }

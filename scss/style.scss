@@ -1,6 +1,7 @@
 @use 'foundations/index' as *;
 @use 'components/button/button.scss';
 @use 'components/inputs/input.scss';
+@use 'components/icons/icons.scss';
 
 
 // Swatces 
@@ -11,7 +12,7 @@
         display: flex;
         flex-direction: row;
    
-        .swatch {                                                    
+        .swatch {                                                     
             div {
                 height: 150px;
                 width: 150px;
