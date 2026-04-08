@@ -11,13 +11,13 @@
         display: flex;
         flex-direction: row;
    
-        .swatch {                                        
+        .swatch {                                                    
             div {
                 height: 150px;
                 width: 150px;
                 margin-right: $spacing-l;
                 margin-bottom: $spacing-sm;
-            }    
+            }     
             .primary-black {
                 background-color: $colour-primary-black;
             }  
