@@ -15,6 +15,14 @@ main {
     height: 70px;
 }
 
+.code-h300{
+    height: 300px;
+}
+
+.code-h150{
+    height: 150px;
+}
+
 section {
     margin-bottom: 10px;
 }

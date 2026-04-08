@@ -186,17 +186,21 @@
                 </p>
                 <p class="body-text">Example:</p>
                 <textarea class="form-control">Type...</textarea>
-                <textarea class="code code-h70" readonly>
+                <textarea class="code" readonly>
                 <textarea class="form-control">Type...</textarea>
                 </textarea>
             </div>
 
             <!-- checkbox -->
             <div class="block">
-                <div class="body-bold">checkbox</div>
+                <div class="body-bold">Checkbox</div>
                 <p class="body-text">
-                    To create a checkbox use ..
+                    To create a checkbox use  <code class="intext-code">.check-container</code> class for your container tag.
+                    In Your HTML use  <code class="intext-code">class="check-container"</code></br>
+                    Use class <code class="intext-code">.checkmark</code> to applycustom checkmark style from this design system.</br>
+                    Use <code class="intext-code">type="checkbox"</code> in your HTML for <code class="intext-code">input</code> tag.
                 </p>
+                <p class="body-text">Example:</p>
 
                 <label class="check-container">One
                     <input type="checkbox" checked="checked">
@@ -217,15 +221,42 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>
                   </label>
+
+                  <textarea class="code code-h300" readonly>
+                    <label class="check-container">One
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="check-container">Two
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="check-container">Three
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="check-container">Four
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                </textarea>
+
                 </div>
-            </div>
+            
 
             <!-- radio -->
             <div class="block">
                 <div class="body-bold">Radio</div>
                 <p class="body-text">
-                    To create a radio input use ..
+                    To create a radio input  use <code class="intext-code">.radio-container</code> class for your container tag.
+                    In Your HTML use  <code class="intext-code">class="radio-container"</code></br>
+                    Use class <code class="intext-code">.radiobtn</code> to apply styles for your radio button.</br>
+                    Use <code class="intext-code">type="radio"</code> in your HTML for <code class="intext-code">input</code> tag.
                 </p>
+                <p class="body-text">Example:</p>
 
                 <label class="radio-container">One
                     <input type="radio" name="radio-example" checked="checked">
@@ -236,6 +267,18 @@
                     <input type="radio" name="radio-example">
                     <span class="radiobtn"></span>
                   </label>
+
+                  <textarea class="code code-h150" readonly>
+                    <label class="radio-container">One
+                    <input type="radio" name="radio-example" checked="checked">
+                    <span class="radiobtn"></span>
+                  </label>
+                  
+                  <label class="radio-container">Two
+                    <input type="radio" name="radio-example">
+                    <span class="radiobtn"></span>
+                  </label>
+                </textarea>
             </div>
 
         </section>
