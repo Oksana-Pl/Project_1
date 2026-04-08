@@ -1,9 +1,22 @@
-@use "../../foundations/index.scss" as *; 
+@use "../../foundations/index.scss" as *;
 
 .icon {
     display: block;
     width: 24px;
     height: 24px;
+}
+
+.icons-row {
+    display: flex;
+    flex-direction: row;
+    gap: $spacing-l;
+    margin-bottom: $spacing-l;
+}
+
+.icon svg {
+
+    margin-right: $spacing-l;
+    margin-bottom: $spacing-sm;
 }
 
 // .icon-search {

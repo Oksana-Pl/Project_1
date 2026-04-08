@@ -357,6 +357,18 @@
   height: 24px;
 }
 
+.icons-row {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.icon svg {
+  margin-right: 32px;
+  margin-bottom: 8px;
+}
+
 .color-palette {
   margin: 50px;
 }

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/components/icons/icons.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA","file":"icons.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/components/icons/icons.scss","../scss/foundations/spacing.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA,KCRQ;EDSR,eCTQ;;;ADYZ;EAEI,cCdQ;EDeR,eCjBS","file":"icons.css"}

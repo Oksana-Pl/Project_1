@@ -11,9 +11,9 @@
     .swatches { 
         display: flex;
         flex-direction: row;
-   
+    
         .swatch {                                                     
-            div {
+            div {    
                 height: 150px;
                 width: 150px;
                 margin-right: $spacing-l;
