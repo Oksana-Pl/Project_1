@@ -1,14 +1,6 @@
 @use "../../foundations/index.scss" as *; 
 
-.form-group {
-    display: flex;
-    width: 100%;
-    max-width: 500px;
-    flex-direction: column;
-    gap: 6px;
-    margin-bottom: 16px;
-  }
-
+//label
   .form-label {
     font-family: $font-family-regular;
     font-size: $body-label-size;
@@ -26,6 +18,16 @@
     color: $success-dark;
   }
 
+  //form control
+  .form-group {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
 .form-control {
     padding: 10px 10px;
     border: 1px solid $colour-secondary-dark;
@@ -41,6 +43,7 @@
     border: 2px solid $colour-secondary-dark;
 }
 
+//form validation
 .error {
     border: 1px solid $error-dark;
     background-color: $error-light;
@@ -63,6 +66,7 @@
     font-size: $body-caption-size;
 }
 
+//select
 .form-select {
     padding: 10px 10px;
     border: 1px solid $colour-secondary-dark;
@@ -79,31 +83,33 @@
   }
   
   .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: $colour-secondary-light100;
+    color: $colour-secondary-dark;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 1px solid $colour-secondary-dark;
     cursor: pointer;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: $colour-secondary-light100;
+    max-width: 500px;
+    
   }
   
   .dropdown-content a {
-    color: black;
+    color: $colour-secondary-dark;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    border: 1px solid $colour-secondary-dark;
+    max-width: 500px;
   }
   
   .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: $colour-secondary-light;
   }
   
   .dropdown:hover .dropdown-content {
@@ -111,5 +117,5 @@
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: $colour-secondary-light;
   }
