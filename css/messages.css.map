@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"messages.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/components/messages/messages.scss","../scss/foundations/spacing.scss","../scss/foundations/colours.scss"],"names":[],"mappings":"AAEA;EACI;EACA,QCDQ;EDER;EACA;EACA,eCLQ;;;ADQZ;EACI,YCRQ;;;ADWZ;EACI,kBEGU;EFFV;;;AAEJ;EACI,kBEFU;EFGV;EACA,OEdQ","file":"messages.css"}

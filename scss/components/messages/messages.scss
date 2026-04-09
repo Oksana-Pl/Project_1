@@ -1,1 +1,23 @@
-@use "../../foundations/index.scss" as *; 
+@use "../../foundations/index.scss" as *;
+
+.card-success {
+    max-width: 400px;
+    margin: $spacing-l;
+    text-align: center;
+    border: 1px solid $success-dark;
+    border-radius: $spacing-m;
+}
+
+.card-icon{
+    margin-top: $spacing-l;
+}
+
+.btn-success{
+    background-color: $success-dark;
+    width: 200px;
+}
+.btn-success:hover {
+    background-color: $success-light;
+    border: 1px solid $success-dark;
+    color: $colour-primary-black;
+}
