@@ -369,17 +369,17 @@
   margin-bottom: 8px;
 }
 
+.card-icon {
+  margin-top: 32px;
+}
+
 .card-success {
-  max-width: 400px;
+  max-width: 300px;
   margin: 16px;
-  padding: 32px;
+  padding: 16px;
   text-align: center;
   border: 1px solid #007E33;
   border-radius: 16px;
-}
-
-.card-icon {
-  margin-top: 32px;
 }
 
 .btn-success {
@@ -423,8 +423,9 @@
 }
 
 .card-error {
-  max-width: 400px;
-  margin: 32px;
+  max-width: 300px;
+  margin: 16px;
+  padding: 16px;
   text-align: center;
   border: 1px solid #CC0100;
   border-radius: 16px;

@@ -1,17 +1,17 @@
 @use "../../foundations/index.scss" as *;
 
+.card-icon{
+    margin-top: $spacing-l;
+}
+
 //success message
 .card-success {
-    max-width: 400px;
+    max-width: 300px;
     margin: $spacing-m;
-    padding: $spacing-l;
+    padding: $spacing-m;
     text-align: center;
     border: 1px solid $success-dark;
     border-radius: $spacing-m;
-}
-
-.card-icon{
-    margin-top: $spacing-l;
 }
 
 .btn-success{
@@ -55,8 +55,9 @@
 //error message
 
 .card-error {
-    max-width: 400px;
-    margin: $spacing-l;
+    max-width: 300px;
+    margin: $spacing-m;
+    padding: $spacing-m;
     text-align: center;
     border: 1px solid $error-dark; 
     border-radius: $spacing-m;
