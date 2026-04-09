@@ -1,8 +1,10 @@
 @use "../../foundations/index.scss" as *;
 
+//success message
 .card-success {
     max-width: 400px;
-    margin: $spacing-l;
+    margin: $spacing-m;
+    padding: $spacing-l;
     text-align: center;
     border: 1px solid $success-dark;
     border-radius: $spacing-m;
@@ -14,10 +16,85 @@
 
 .btn-success{
     background-color: $success-dark;
+    border-radius: $spacing-sm;
+    border: 1px solid $success-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    padding: $spacing-m;
+    font-family: $font-family-headings;
+    color: $neutral-white;
     width: 200px;
 }
 .btn-success:hover {
     background-color: $success-light;
     border: 1px solid $success-dark;
+    color: $colour-primary-black;
+}
+
+.btn-success-secondary {
+    background-color: $colour-secondary-light100;
+    border-radius: $spacing-sm;
+    border-width: 1px;
+    border-color: $success-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    margin-bottom: $spacing-l;
+    padding: $spacing-m;
+    font-family: $font-family-headings;
+    color: $success-dark;
+    width: 200px;
+}
+.btn-success-secondary:hover {
+    background-color: $success-light;
+    border: 1px solid $success-dark;
+    color: $colour-primary-black;
+}
+
+//error message
+
+.card-error {
+    max-width: 400px;
+    margin: $spacing-l;
+    text-align: center;
+    border: 1px solid $error-dark; 
+    border-radius: $spacing-m;
+}
+
+.btn-error{
+    background-color: $error-dark;
+    border-radius: $spacing-sm;
+    border: 1px solid $error-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    padding: $spacing-m;
+    font-family: $font-family-headings;
+    color: $neutral-white;
+    width: 200px;
+}
+.btn-error:hover {
+    background-color: $error-light;
+    border: 1px solid $error-dark;
+    color: $colour-primary-black;
+}
+.btn-error-secondary {
+    background-color: $colour-secondary-light100;
+    border-radius: $spacing-sm;
+    border-width: 1px;
+    border-color: $error-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    margin-bottom: $spacing-l;
+    padding: $spacing-m;
+    font-family: $font-family-headings;
+    color: $error-dark;
+    width: 200px;
+}
+.btn-error-secondary:hover {
+    background-color: $error-light;
+    border: 1px solid $error-dark;
     color: $colour-primary-black;
 }

@@ -2,12 +2,12 @@
 @use 'components/button/button.scss';
 @use 'components/inputs/input.scss';
 @use 'components/icons/icons.scss';
-@use 'components/messages/messages.scss';              
-
-
+@use 'components/messages/messages.scss';                  
+    
+ 
 // Swatces 
 .color-palette {   
-    margin: 50px;
+    margin: 50px;       
    
     .swatches { 
         display: flex;

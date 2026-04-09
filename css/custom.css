@@ -23,6 +23,10 @@ main {
     height: 150px;
 }
 
+.code-h200{
+    height: 200px;
+}
+
 section {
     margin-bottom: 10px;
 }
