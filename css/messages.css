@@ -9,6 +9,7 @@
   text-align: center;
   border: 1px solid #007E33;
   border-radius: 16px;
+  background-color: #FFFFFF;
 }
 
 .btn-success {
@@ -58,6 +59,7 @@
   text-align: center;
   border: 1px solid #CC0100;
   border-radius: 16px;
+  background-color: #FFFFFF;
 }
 
 .btn-error {
