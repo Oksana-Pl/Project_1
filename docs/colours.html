@@ -63,17 +63,17 @@
                     </div>
                     <!-- how to use -->
                     <p class="body-text">
-                        To apply colors from the primary palette, use the predefined Samantic tokens in your SCSS file:
+                        To apply colors from the primary palette, use the CSS variables:
                         <textarea class="code code-h70" readonly>
-                    $colour-primary-black;
-                    $colour-primary-dark;
-                    $colour-primary-light;
-                    $colour-primary-light-100;
+                            --colour-primary-black;
+                            --colour-primary-dark;
+                            --colour-primary-light;
+                            --colour-primary-light-100;
                     </textarea>
                     <p class="body-text"> Example:</p>
                     <textarea class="code code-h70" readonly>
                         .nav {
-                            background-color: $colour-primary-light;
+                            background-color: var(--colour-primary-light);
                         }
                     </textarea>
                     </p>
