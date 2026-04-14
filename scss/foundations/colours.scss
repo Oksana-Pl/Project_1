@@ -26,6 +26,8 @@ $colour-primary-dark:$blue-500;
 $colour-primary-light:$blue-300;
 $colour-primary-light-100:$blue-100;
 
+
+
 //secondary
 $colour-secondary-dark:$beige-500;
 $colour-secondary-light:$beige-200;
@@ -44,3 +46,6 @@ $error-light: $error-200;
 $error-dark: $error-600;
 
 
+:root {
+    --colour-primary-dark: #{$colour-primary-dark};
+}
