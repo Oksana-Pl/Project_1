@@ -90,25 +90,20 @@
 //  dropdown
 .dropdown {
     position: relative;
+    height: 40px;
   }
   
   .dropbtn {
-    background-color: $colour-secondary-light100;
-    color: $colour-secondary-dark;
-    padding: 16px;
-    font-size: 16px;
-    border: 1px solid $colour-secondary-dark;
     cursor: pointer;
-    font-family: $font-family-regular;
-    border-radius: $spacing-sm;
-    font-size: $body-text;
+    text-align: left;
   }
   
   .dropdown-content {
+    top: 40px;
     display: none;
     position: absolute;
     background-color: $colour-secondary-light100;
-    max-width: 500px;
+    width: 500px;
     font-family: $font-family-regular;
     
   }
