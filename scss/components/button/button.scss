@@ -16,6 +16,10 @@
     background-color: $colour-secondary-light;
     color: $colour-primary-black;
 }
+button:focus {
+    border: 3px solid $success-dark;
+}
+
 
 
 .button-secondary{
