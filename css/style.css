@@ -3,6 +3,18 @@
   --colour-primary-dark: #4F7699;
   --colour-primary-light: #b1c1ce;
   --colour-primary-light-100: #DFE8EF;
+  --colour-secondary-dark: #8C5A4F;
+  --colour-secondary-light: #F3E3D4;
+  --colour-secondary-light100: #FFFDFC;
+  --neutral-dark: #7B7B7B;
+  --neutral-light: #c9c9c9;
+  --neutral-white: neutral-white;
+  --success-light: #E9FFF2;
+  --success-dark: #007E33;
+  --error-light: #FFEDED;
+  --error-dark: #CC0100;
+  --warning-light: #FFF2D6;
+  --warning-dark: #EB7B01;
 }
 
 .button-primary {
@@ -558,6 +570,12 @@ button:focus {
 }
 .color-palette .swatches .swatch .error-dark {
   background-color: #CC0100;
+}
+.color-palette .swatches .swatch .warning-light {
+  background-color: #FFF2D6;
+}
+.color-palette .swatches .swatch .warning-dark {
+  background-color: #EB7B01;
 }
 
 .nav {

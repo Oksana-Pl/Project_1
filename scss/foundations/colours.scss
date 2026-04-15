@@ -17,6 +17,8 @@ $error-200: #FFEDED;
 $error-600: #CC0100;
 $success-200: #E9FFF2;
 $success-600: #007E33;
+$warning-600: #EB7B01;
+$warning-200: #FFF2D6;
 
 // Samantic tokens
 
@@ -41,6 +43,8 @@ $success-light: $success-200;
 $success-dark: $success-600;
 $error-light: $error-200;
 $error-dark: $error-600;
+$warning-light: $warning-200;
+$warning-dark: $warning-600;
 
 
 :root {
@@ -65,5 +69,7 @@ $error-dark: $error-600;
     --success-dark: #{$success-dark};
     --error-light: #{$error-light};
     --error-dark: #{$error-dark};
+    --warning-light: #{$warning-light};
+    --warning-dark: #{$warning-dark};
 
 }
