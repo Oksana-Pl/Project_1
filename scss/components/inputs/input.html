@@ -147,9 +147,10 @@
             <div class="block">
                 <div class="body-bold">Select</div>
                 <p class="body-text">
-                    To create a select menu use ..
+                    To create a select menu use class <code class="intext-code">.select</code> for wrapper element.
+                    Use class <code class="intext-code">.form-select</code> for select element.
                 </p>
-
+                <p class="body-text">Example:</p>
                 <div class="form-group select">
                     <label class="form-label" for="choose-country">Choose a country:</label>
                     <select class="form-select" id="choose-country">
@@ -159,15 +160,28 @@
                         <option value="3">Option Three</option>
                     </select>
                 </div>
+                <textarea class="code code-h150" readonly>
+                    <div class="form-group select">
+                        <label class="form-label" for="choose-country">Choose a country:</label>
+                        <select class="form-select" id="choose-country">
+                            <option selected>Choose option</option>
+                            <option value="1">Option One</option>
+                            <option value="2">Option Two</option>
+                            <option value="3">Option Three</option>
+                        </select>
+                    </div>
+                </textarea>
             </div>
 
             <!-- dropdown -->
             <div class="block">
                 <div class="body-bold">Dropdown</div>
                 <p class="body-text">
-                    To create a sdropdown menu use ..
+                    To create a dropdown menu use a <code class="intext-code">.dropdown</code> class on the container element
+                    and class <code class="intext-code">.dropbtn</code> for input element and <code class="intext-code">.dropdown-content</code>
+                    for list of options.
                 </p>
-
+                <p class="body-text">Example:</p>
                 <div class="form-group dropdown">
                     <button class="form-control dropbtn">Dropdown Menu</button>
                     <div class="dropdown-content"> 
@@ -176,6 +190,17 @@
                         <a href="#">Link 3</a>
                     </div>
                 </div>
+                <textarea class="code code-h150" readonly>
+                    <div class="form-group dropdown">
+                        <button class="form-control dropbtn">Dropdown Menu</button>
+                        <div class="dropdown-content"> 
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </textarea>
+
             </div>
 
             <!-- textarea -->
@@ -196,7 +221,7 @@
             <div class="block">
                 <div class="body-bold">Checkbox</div>
                 <p class="body-text">
-                    To create a checkbox input, use the <code class="intext-code">.check-container</code> class on the container element.
+                    To create a checkbox input use the <code class="intext-code">.check-container</code> class on the container element.
                     In your HTML, apply <code class="intext-code">class="check-container"</code> to the wrapper.
                     Use the <code class="intext-code">.checkmark</code> class to apply custom checkbox styles from this design system.
                     Set <code class="intext-code">type="checkbox"</code> for the <code class="intext-code">input</code> element.
@@ -222,6 +247,7 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>
                   </label>
+              
 
                   <textarea class="code code-h300" readonly>
                     <label class="check-container">One
@@ -244,6 +270,56 @@
                         <span class="checkmark"></span>
                       </label>
                 </textarea>
+                <p class="body-text">
+                    To display items inline use additional class<code class="intext-code">.check-container-inline</code>.  
+                    In your HTML set additional class <code class="intext-code">class="check-container-inline"</code> for your 
+                    wrapper.
+                  </p>
+                  <p class="body-text">Example:</p>
+
+                <label class="check-container check-container-inline">One
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="check-container check-container-inline">Two
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="check-container check-container-inline">Three
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="check-container check-container-inline">Four
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+              
+
+                  <textarea class="code code-h300" readonly>
+                    <label class="check-container check-container-inline">One
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="check-container check-container-inline">Two
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="check-container check-container-inline">Three
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                      <label class="check-container check-container-inline">Four
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                </textarea>
+
 
                 </div>
             

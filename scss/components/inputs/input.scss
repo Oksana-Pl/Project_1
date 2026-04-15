@@ -146,6 +146,10 @@
     user-select: none;
   }
 
+  .check-container-inline {
+    display:inline!important;
+  }
+
   .check-container input {
     position: absolute;
     opacity: 0;

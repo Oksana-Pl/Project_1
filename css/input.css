@@ -1,3 +1,10 @@
+:root {
+  --colour-primary-black: #0D0D0D;
+  --colour-primary-dark: #4F7699;
+  --colour-primary-light: #b1c1ce;
+  --colour-primary-light-100: #DFE8EF;
+}
+
 .form-label {
   font-family: "Baloo Chettan 2", sans-serif;
   font-size: 20px;
@@ -134,6 +141,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.check-container-inline {
+  display: inline !important;
 }
 
 .check-container input {

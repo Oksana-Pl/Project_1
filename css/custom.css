@@ -14,21 +14,17 @@ main {
 .code-h70 {
     height: 70px;
 }
-
-.code-h300{
-    height: 300px;
-}
-
 .code-h150{
     height: 150px;
 }
-
 .code-h200{
     height: 200px;
 }
-
 .code-h250{
     height: 250px;
+}
+.code-h300{
+    height: 300px;
 }
 
 section {
