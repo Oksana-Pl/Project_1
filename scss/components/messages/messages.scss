@@ -101,3 +101,52 @@
     border: 1px solid $error-dark;
     color: $colour-primary-black;
 }
+
+//warning message
+
+.card-warning {
+    max-width: 300px;
+    margin: $spacing-m;
+    padding: $spacing-m;
+    text-align: center;
+    border: 1px solid $warning-dark; 
+    border-radius: $spacing-m;
+    background-color: $neutral-white;
+}
+
+.btn-warning{
+    background-color: $warning-dark;
+    border-radius: $spacing-sm;
+    border: 1px solid $warning-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    padding: $spacing-m;
+    font-family: $font-family-headings;
+    color: $neutral-white;
+    width: 200px;
+}
+.btn-warning:hover {
+    background-color: $warning-light;
+    border: 1px solid $warning-dark;
+    color: $colour-primary-black;
+}
+.btn-warning-secondary {
+    background-color: $colour-secondary-light100;
+    border-radius: $spacing-sm;
+    border-width: 1px;
+    border-color: $warning-dark;
+    font-size: $body-text-size;
+    text-transform: uppercase;
+    margin: $spacing-sm;
+    margin-bottom: $spacing-l;
+    padding: $spacing-m;
+    font-family: $font-family-headings;
+    color: $warning-dark;
+    width: 200px;
+}
+.btn-warning-secondary:hover {
+    background-color: $warning-light;
+    border: 1px solid $warning-dark;
+    color: $colour-primary-black;
+}

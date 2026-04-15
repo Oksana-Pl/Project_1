@@ -507,6 +507,56 @@ button:focus {
   color: #0D0D0D;
 }
 
+.card-warning {
+  max-width: 300px;
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #EB7B01;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+
+.btn-warning {
+  background-color: #EB7B01;
+  border-radius: 8px;
+  border: 1px solid #EB7B01;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 8px;
+  padding: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #FFFFFF;
+  width: 200px;
+}
+
+.btn-warning:hover {
+  background-color: #FFF2D6;
+  border: 1px solid #EB7B01;
+  color: #0D0D0D;
+}
+
+.btn-warning-secondary {
+  background-color: #FFFDFC;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #EB7B01;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 8px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #EB7B01;
+  width: 200px;
+}
+
+.btn-warning-secondary:hover {
+  background-color: #FFF2D6;
+  border: 1px solid #EB7B01;
+  color: #0D0D0D;
+}
+
 .color-palette {
   margin: 50px;
 }
