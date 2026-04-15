@@ -40,7 +40,7 @@
 
 .form-control:focus {
     outline: none;
-    border: 2px solid $colour-secondary-dark;
+    border: 3px solid $colour-secondary-dark;
 }
 
 //form validation
@@ -57,7 +57,7 @@
 
 .error:focus {
     outline: none;
-    border: 2px solid $error-dark;
+    border: 3px solid $error-dark;
 }
 
 .success {
@@ -73,7 +73,7 @@
 
 .success:focus {
     outline: none;
-    border: 2px solid $success-dark;
+    border: 3px solid $success-dark;
 }
 
 //select
@@ -86,7 +86,10 @@
     color: $colour-secondary-dark;
     background-color: $colour-secondary-light100;
 }
-
+.form-select:focus{
+  outline: none;
+  border-width: 3px;
+}
 //  dropdown
 .dropdown {
     position: relative;
@@ -96,6 +99,10 @@
   .dropbtn {
     cursor: pointer;
     text-align: left;
+  }
+  .dropbtn:focus {
+    outline: none;
+    border-width: 3px;
   }
   
   .dropdown-content {
@@ -145,7 +152,7 @@
     -ms-user-select: none;
     user-select: none;
   }
-
+  
   .check-container-inline {
     display:inline!important;
   }
@@ -166,6 +173,9 @@
     background-color: $neutral-white;
     border: 1px solid $colour-primary-dark;
     border-radius: 3px;
+  }
+  .check-container input:focus ~ .checkmark {
+    border: 3px solid $colour-primary-dark;
   }
   .check-container:hover input ~ .checkmark {
     background-color: $colour-primary-light-100;   //color hover
@@ -229,6 +239,7 @@
   .radio-container:hover input ~ .radiobtn {
     background-color: $colour-primary-light-100; //hover
   }
+
   .radio-container input:checked ~ .radiobtn{
     background-color: $colour-primary-light;        //cheked color
   }
