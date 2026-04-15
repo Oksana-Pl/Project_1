@@ -1,7 +1,7 @@
 // Primary colors
 $blue-500: #4F7699;
 $blue-300: #b1c1ce;
-$blue-100: #DFE8EF; 
+$blue-100: #DFE8EF;
 $beige-500: #8C5A4F;
 $beige-200: #F3E3D4;
 $beige-100: #FFFDFC;
@@ -10,7 +10,7 @@ $body-text: #0D0D0D;
 //neutral colors
 $neutral-600: #7B7B7B;
 $neutral-400: #c9c9c9;
-$white: #FFFFFF; 
+$white: #FFFFFF;
 
 //feedback colors
 $error-200: #FFEDED;
@@ -22,13 +22,13 @@ $success-600: #007E33;
 
 //primary
 $colour-primary-black: $body-text;
-$colour-primary-dark:$blue-500;
-$colour-primary-light:$blue-300;
-$colour-primary-light-100:$blue-100;
+$colour-primary-dark: $blue-500;
+$colour-primary-light: $blue-300;
+$colour-primary-light-100: $blue-100;
 
 //secondary
-$colour-secondary-dark:$beige-500;
-$colour-secondary-light:$beige-200;
+$colour-secondary-dark: $beige-500;
+$colour-secondary-light: $beige-200;
 $colour-secondary-light100: $beige-100;
 
 //neutral
@@ -37,7 +37,6 @@ $neutral-light: $neutral-400;
 $neutral-white: $white;
 
 //feedback
-
 $success-light: $success-200;
 $success-dark: $success-600;
 $error-light: $error-200;
@@ -50,5 +49,21 @@ $error-dark: $error-600;
     --colour-primary-dark: #{$colour-primary-dark};
     --colour-primary-light: #{$colour-primary-light};
     --colour-primary-light-100: #{$colour-primary-light-100};
+
+    //secondary
+    --colour-secondary-dark: #{$colour-secondary-dark};
+    --colour-secondary-light: #{$colour-secondary-light};
+    --colour-secondary-light100: #{$colour-secondary-light100};
+
+    //neutral
+    --neutral-dark: #{$neutral-dark};
+    --neutral-light: #{$neutral-light};
+    --neutral-white: #{neutral-white};
+
+    //feedback
+    --success-light: #{$success-light};
+    --success-dark: #{$success-dark};
+    --error-light: #{$error-light};
+    --error-dark: #{$error-dark};
 
 }

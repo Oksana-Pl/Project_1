@@ -111,18 +111,18 @@
                     </div>
                     <!-- how to use -->
                     <p class="body-text">
-                        To apply colors from the secondary palette, use the predefined Samantic tokens in your SCSS
-                        file:
+                        To apply colors from the secondary palette, use the CSS variables:
+                       
                         <textarea class="code code-h70" readonly>
-                        $colour-secondary-dark;
-                        $colour-secondary-light;
-                        $colour-secondary-light100;
+                        --colour-secondary-dark;
+                        --colour-secondary-light;
+                        --colour-secondary-light100;
                     </textarea>
                     <p class="body-text"> Example:</p>
                     <textarea class="code code-h70" readonly>
                         .card {
-                            background-color: $colour-secondary-light100;
-                            color: $colour-secondary-dark;
+                            background-color: var(--colour-secondary-light100);
+                            color: var(--colour-secondary-dark);
                         }
                     </textarea>
                     </p>
@@ -163,17 +163,16 @@
                     </div>
                     <!-- how to use -->
                     <p class="body-text">
-                        To apply colors from the neutral palette, use the predefined Samantic tokens in your SCSS
-                        file:
+                        To apply colors from the neutral palette, use the CSS variables:
                         <textarea class="code code-h70" readonly>
-                            $neutral-dark;
-                            $neutral-light;
-                            $neutral-white;
+                            --neutral-dark;
+                            --neutral-light;
+                            --neutral-white;
                     </textarea>
                     <p class="body-text"> Example:</p>
                     <textarea class="code code-h70" readonly>
                         p {
-                            background-color: $neutral-light;
+                            background-color: var(--neutral-light);
                         }
                     </textarea>
                     </p>
@@ -219,19 +218,18 @@
                     </div>
                     <!-- how to use -->
                     <p class="body-text">
-                        To apply colors from the feedback palette, use the predefined Samantic tokens in your SCSS
-                        file:
+                        To apply colors from the feedback palette, use the predefined CSS variables:
                         <textarea class="code code-h70" readonly>
-                            $success-light;
-                            $success-dark;
-                            $error-light;
-                            $error-dark;
+                            --success-light;
+                            --success-dark;
+                            --error-light;
+                            --error-dark;
                     </textarea>
                     <p class="body-text"> Example:</p>
                     <textarea class="code code-h70" readonly>
                         .error {
-                            background-color: $error-light;
-                            border: 1px solid $error-dark;
+                            background-color: var(--error-light);
+                            border: 1px solid var(--error-dark);
                         }
                     </textarea>
                     </p>
