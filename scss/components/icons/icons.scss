@@ -73,7 +73,8 @@ td, th {
   border-right: 1px solid $neutral-light;
 }
 
-// table {
-//   width: 100%;
-//   border-collapse: collapse;
-// }
+table {
+  width: 100%;
+  border: 1px solid $neutral-light;
+  border-collapse: collapse;
+}

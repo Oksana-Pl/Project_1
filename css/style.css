@@ -472,6 +472,12 @@ td, th {
   border-right: 1px solid #c9c9c9;
 }
 
+table {
+  width: 100%;
+  border: 1px solid #c9c9c9;
+  border-collapse: collapse;
+}
+
 .card-icon {
   margin: 32px auto 0;
   width: 50px;
