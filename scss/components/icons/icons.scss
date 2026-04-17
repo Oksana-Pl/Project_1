@@ -64,3 +64,16 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44' fill='none'%3E%3Cpath d='M15.564 17.9149L20.6229 25.6411L34.0001 12.2429' stroke='%23000000' stroke-width='3' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M32.026 21.505C32.0536 22.0602 32.026 22.6154 31.9709 23.189C31.3191 29.2867 25.8929 33.7003 19.8424 33.0433C13.7919 32.3864 9.41241 26.9087 10.0643 20.8111C10.7162 14.7134 16.1423 10.2998 22.1928 10.9568C23.7261 11.1233 25.1492 11.5952 26.4071 12.3077' stroke='%23000000' stroke-miterlimit='10' stroke-linecap='round'/%3E%3C/svg%3E");
   }
 
+//tabel
+
+td, th {
+  text-align: left;
+  padding: $spacing-m;
+  border-bottom: 1px solid $neutral-light;
+  border-right: 1px solid $neutral-light;
+}
+
+// table {
+//   width: 100%;
+//   border-collapse: collapse;
+// }
