@@ -85,6 +85,7 @@
     font-family: $font-family-regular;
     color: $colour-secondary-dark;
     background-color: $colour-secondary-light100;
+    cursor: pointer;
 }
 .form-select:focus{
   outline: none;
