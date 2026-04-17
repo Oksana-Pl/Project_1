@@ -2,3 +2,12 @@ $spacing-xs: 4px;
 $spacing-sm: 8px;
 $spacing-m: 16px;
 $spacing-l: 32px;
+
+
+
+:root {
+    --spacing-xs: #{$spacing-xs};
+    --spacing-sm: #{$spacing-sm};
+    --spacing-m: #{$spacing-m};
+    --spacing-l: #{$spacing-l};
+}
