@@ -67,6 +67,10 @@
 }
 
 button:focus {
+  outline: none;
+}
+
+button:focus {
   border: 3px solid #007E33;
 }
 
