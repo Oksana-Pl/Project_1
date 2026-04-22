@@ -15,4 +15,11 @@
   --error-dark: #CC0100;
   --warning-light: #FFF2D6;
   --warning-dark: #EB7B01;
+}
+
+:root {
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 32px;
 }/*# sourceMappingURL=index.css.map */
